@@ -1,0 +1,9 @@
+=Deja Vu
+
+== A rack based session record / playback middleware for problemsolving web applications
+
+This is user session record and playback. Good for what ales you.
+
+== Usage
+
+  >> require 'deja-vu'
