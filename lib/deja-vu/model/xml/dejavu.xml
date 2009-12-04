@@ -1,0 +1,27 @@
+<deja-vu xmlns="http://soldierofcode.com/deja-vu" pid="">
+
+  <recording pid=""
+             cookie=""
+             stamp=""
+             agent="">
+
+    <record id=""
+            stamp=""
+            status=""
+            method=""
+            url=""
+            request-time="">
+
+      <header name="" value=""/>
+
+      <body><![CDATA[HTML OR WHATEVER HERE]]></body>
+
+      <param name="" value=""/>
+
+      <multipart-reference name="" file-path=""/>
+      
+    </record>
+
+  </recording>
+
+</deja-vu>
