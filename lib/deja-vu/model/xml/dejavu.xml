@@ -3,7 +3,8 @@
   <recording pid=""
              cookie=""
              stamp=""
-             agent="">
+             agent=""
+             ip="">
 
     <record id=""
             stamp=""

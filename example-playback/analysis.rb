@@ -3,5 +3,5 @@ require 'xampl'
 require 'dirge'
 require 'deja-vu' unless require ~'../lib/deja-vu'
 
-player = SoldierOfCode::DejaVu::Player.new
-player.play
+analyzer = SoldierOfCode::DejaVu::Analyzer.new
+analyzer.overview_formatted
