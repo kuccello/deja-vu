@@ -6,4 +6,17 @@ This is user session record and playback. Good for what ales you.
 
 == Usage
 
-  >> require 'deja-vu'
+>> require 'deja-vu'
+
+YOU NEED TO TURN ON COOKIE SESSIONS UPSTREAM OF DejaVu FOR THIS TO WORK
+
+ie.
+use Rack::Session::Cookie,
+    :key => 'a-stupid-cookie-name',
+    :path => '/',
+    :expire_after => 2592000,
+    :secret => 'change_me'
+
+in your config.ru or your application
+
+use SoldierOfCode::DejaVu::Middleware, {:cookie_name=>"a-stupid-cookie-name",:enable_record=>true}

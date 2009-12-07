@@ -16,6 +16,10 @@ module SoldierOfCode
         @opt = opt
       end
 
+      def export(to_file_named)
+        # TODO -- IMPLEMENT THIS
+      end
+
       #
       #
       #

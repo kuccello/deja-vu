@@ -1,0 +1,4 @@
+-- Dec. 7th
+- added analysis class to do basic stats on recordings
+- refactored the player to be better
+- fixed a bug in the recorder
