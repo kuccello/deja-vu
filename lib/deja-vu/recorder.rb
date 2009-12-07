@@ -43,7 +43,7 @@ module SoldierOfCode
           record = recording.new_record("#{Time.new.to_i}")
           record.stamp = "#{Time.new.to_i}"
           record.status = "#{resp[0]}"
-          record.method = env['REQUEST_METHOD']
+          record.httpmethod = env['REQUEST_METHOD']
           record.url = "#{env['rack.url_scheme']}://#{env['HTTP_HOST']}#{env['REQUEST_URI']}"
           record.request_time = ("#{start_time.to_i}.#{start_time.usec}".to_f - "#{end_time.to_i}.#{end_time.usec}".to_f).to_s
 

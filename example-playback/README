@@ -1,0 +1,6 @@
+You need to first record using the example web application <dir-root>/example
+
+Simply start up the web application and play arround with entering various URIs and it will create a repo directory.
+Copy the "repo" directory into this directory and take note of a recording "pid" repo/DejaVuNS/Recording/<the file name is the pid>
+
+Adjust the playback.rb with the pid.

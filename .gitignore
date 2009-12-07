@@ -4,3 +4,4 @@ pkg
 example/deja-vu-recordings/*.session
 example/repo
 lib/deja-vu/model/generated_model
+example-playback/repo

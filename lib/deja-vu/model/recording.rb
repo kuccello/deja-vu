@@ -33,5 +33,23 @@ module DejaVuNS
       nil
     end
 
+    def self.find_by_pid(pid)
+      rec = nil
+      DejaVuNS.transaction do
+        rec = DejaVuNS.root.recording[pid]
+      end
+      rec
+    end
+
+    def self.all_recordings
+      recordings = []
+      DejaVuNS.transaction do
+        DejaVuNS.root.recording.each do |rec|
+          recordings << rec
+        end
+      end
+      recordings
+    end
+
   end
 end
