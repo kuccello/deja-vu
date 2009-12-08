@@ -1,8 +1,8 @@
 require ~'generated_model/DejaVuNS'
 
 module DejaVuNS
-  Xampl.set_default_persister_kind(:filesystem)
-  Xampl.set_default_persister_format(:xml_format)
+#  Xampl.set_default_persister_kind(:filesystem)
+#  Xampl.set_default_persister_format(:xml_format)
 
   def self.persistence_type
     Xampl.default_persister_kind
@@ -30,7 +30,7 @@ module DejaVuNS
 
   def self.transaction
     result = nil
-    Xampl.transaction('recordings') do
+    Xampl.transaction('recordings',:filesystem,true,:xml_format) do
       result = yield
     end
     result

@@ -1,5 +1,5 @@
 require ~'deja-vu/init'
-require ~'rack-session-listener'
+#require ~'rack-session-listener'
 require 'digest/sha1'
 require 'xampl'
 
