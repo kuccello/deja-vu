@@ -1,4 +1,8 @@
--- Dec. 7th
+-- Dec. 8th, 2009
+- modified the storage model
+- fixed xampl transaction
+
+-- Dec. 7th, 2009
 - added analysis class to do basic stats on recordings
 - refactored the player to be better
 - fixed a bug in the recorder

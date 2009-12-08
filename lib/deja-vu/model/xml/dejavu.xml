@@ -6,7 +6,7 @@
              agent=""
              ip="">
 
-    <record id=""
+    <record pid=""
             stamp=""
             status=""
             httpmethod=""
