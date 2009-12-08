@@ -9,7 +9,7 @@ begin
     s.homepage = "http://github.com/kuccello/deja-vu"
     s.authors = ['Kristan "Krispy" Uccello']
     s.files = FileList["[A-Z]*", "{lib,test,example,example-playback}/**/*"]
-    s.version = "0.4"
+    s.version = "0.5"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
