@@ -8,8 +8,8 @@ begin
     s.email = "kuccello@gmail.com"
     s.homepage = "http://github.com/kuccello/deja-vu"
     s.authors = ['Kristan "Krispy" Uccello']
-    s.files = FileList["[A-Z]*", "{lib,test}/**/*"]
-    s.version = "0.1"
+    s.files = FileList["[A-Z]*", "{lib,test,example,example-playback}/**/*"]
+    s.version = "0.3"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
